@@ -1,5 +1,5 @@
 # Earthquake Report  
-An data analytical report on earthquake monitoring, historical data analysis, and predictive insights to aid disaster management and response planning.
+A data analytical report on earthquake monitoring, historical data analysis, and predictive ML model building to aid disaster management and response planning.
 
 ## Table of Contents
 
