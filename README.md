@@ -54,10 +54,6 @@ A comprehensive web-based platform designed for real-time earthquake monitoring,
 ![Screenshot 2025-01-16 185723](https://github.com/user-attachments/assets/7b07c08f-e3c2-4a76-b8be-0ba634d382a1)
 
 
-## Tech Stack  
-
-[![My Skills](https://skillicons.dev/icons?i=html,css,python,javascript,bootstrap,d3,gcp,sklearn,matplotlib,flask,vscode,git,)](https://skillicons.dev)  
-
 ## Connect With Us  
 
 Team members  | Connect  
