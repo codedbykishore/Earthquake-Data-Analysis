@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/earthquake-logo.png" alt="Earthquake Report Logo" width="300">
-</p>
-
 # Earthquake Report  
 A comprehensive web-based platform designed for real-time earthquake monitoring, historical data analysis, and predictive insights to aid disaster management and response planning.
 
@@ -22,12 +18,18 @@ A comprehensive web-based platform designed for real-time earthquake monitoring,
 
 **Earthquake Report** aims to provide actionable insights on earthquake patterns and their impacts. Combining real-time monitoring with historical data and machine learning, this project seeks to enhance disaster preparedness and inform better response strategies. It provides an intuitive platform for communities, governments, and researchers to assess earthquake risks effectively.  
 
+![Screenshot 2025-01-16 185558](https://github.com/user-attachments/assets/2d308c0e-8854-44f9-b8a4-2ac106e576c7)
+
+
 ## Key Features  
 
 - **Real-Time Earthquake Monitoring:** Tracks seismic activities globally using live data feeds.  
 - **Historical Data Analysis:** Enables users to explore earthquake trends over time for predictive insights.  
 - **Impact Prediction Models:** Leverages machine learning to forecast potential damage and affected areas.  
 - **Interactive Visualizations:** Presents data through engaging charts, heatmaps, and 3D simulations.  
+
+![Screenshot 2024-12-31 232735](https://github.com/user-attachments/assets/bf16d002-75bd-4afb-92a5-f835f6f0d77c)
+
 
 ## Dataset Sources:  
 
@@ -41,11 +43,17 @@ A comprehensive web-based platform designed for real-time earthquake monitoring,
 - **Random Forest, Gradient Boosting, and XGBoost:** For impact prediction and risk assessment.  
 - **Clustering Algorithms:** To classify regions based on seismic vulnerability.  
 
+![Screenshot 2025-01-16 185948](https://github.com/user-attachments/assets/fc02b0ef-1f13-4f86-b759-c6215efce7af)
+
+
 ## Visualizations  
 
 - **Heatmaps and Geospatial Visuals:** Earthquake frequency and intensity maps using libraries like **Folium** and **GeoPandas**.  
 - **3D Modeling:** Simulations of earthquake wave propagation.
-  
+
+![Screenshot 2025-01-16 185723](https://github.com/user-attachments/assets/7b07c08f-e3c2-4a76-b8be-0ba634d382a1)
+
+
 ## Tech Stack  
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,python,javascript,bootstrap,d3,gcp,sklearn,matplotlib,flask,vscode,git,)](https://skillicons.dev)  
