@@ -1,5 +1,5 @@
 # Earthquake Report  
-A comprehensive web-based platform designed for real-time earthquake monitoring, historical data analysis, and predictive insights to aid disaster management and response planning.
+An data analytical report on earthquake monitoring, historical data analysis, and predictive insights to aid disaster management and response planning.
 
 ## Table of Contents
 
