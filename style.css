@@ -152,6 +152,65 @@ a:hover {
   font-size: 1rem;
 }
 
+.team-card {
+  width: 320px; /* Increased width for team cards */
+  text-align: center;
+  flex-shrink: 0; /* Prevent cards from shrinking */
+}
+
+.team-members-container {
+  max-width: 700px; /* Adjust as needed to fit two cards with gap */
+  margin: 0 auto; /* Center the container */
+  justify-content: space-evenly !important; /* Distribute items with equal space around them */
+}
+
+.social-links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-icon {
+  font-size: 1.8rem;
+  color: #61dafb;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease,
+    text-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(97, 218, 251, 0.1);
+}
+
+.social-icon:hover {
+  transform: translateY(-3px) scale(1.1);
+  color: #a0e9ff;
+  text-shadow: 0 0 10px rgba(97, 218, 251, 0.8);
+}
+
+.social-icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: skewX(-20deg);
+  transition: all 0.7s ease;
+}
+
+.social-icon:hover::before {
+  left: 125%;
+}
+
 /* ---------------- Buttons ---------------- */
 .btn-outline-light {
   border-width: 2px;
