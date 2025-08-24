@@ -1,7 +1,4 @@
 /* ---------------- Body & Base ---------------- */
-html {
-  font-size: 150%; /* Adjusting base font size to make 100% zoom look like 150% */
-}
 
 body {
   font-family: "Inter", sans-serif;
