@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>3D Globe - Three.js</title>
+    <style>
+      body { margin: 0; background: black; }
+      canvas { display: block; }
+    </style>
+  </head>
+  <body>
+    <!-- Load three.js from CDN -->
+    <script type="module">
+      import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.150.1/build/three.module.js";
+
+      // Scene, camera, renderer
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(
+        75,
+        window.innerWidth / window.innerHeight,
+        0.1,
+        1000
+      );
+
+      const renderer = new THREE.WebGLRenderer({ antialias: true });
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      document.body.appendChild(renderer.domElement);
+
+      // Add lights
+      const light = new THREE.DirectionalLight(0xffffff, 1);
+      light.position.set(5, 3, 5).normalize();
+      scene.add(light);
+
+      // Load Earth texture
+      const textureLoader = new THREE.TextureLoader();
+      const earthTexture = textureLoader.load(
+        "https://threejs.org/examples/textures/land_ocean_ice_cloud_2048.jpg"
+      );
+
+      // Create globe (sphere)
+      const geometry = new THREE.SphereGeometry(2, 64, 64);
+      const material = new THREE.MeshPhongMaterial({ map: earthTexture });
+      const earth = new THREE.Mesh(geometry, material);
+      scene.add(earth);
+
+      camera.position.z = 5;
+
+      // Animate
+      function animate() {
+        requestAnimationFrame(animate);
+
+        earth.rotation.y += 0.003; // rotate slowly
+        renderer.render(scene, camera);
+      }
+      animate();
+
+      // Handle resize
+      window.addEventListener("resize", () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+      });
+    </script>
+  </body>
+</html>
