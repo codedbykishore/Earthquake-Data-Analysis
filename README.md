@@ -12,13 +12,15 @@ A data analytical report on earthquake monitoring, historical data analysis, and
 7) Tech Stack  
 8) App Demo  
 9) License  
-10) Connect With Us  
+10) Connect With Us
+
 
 ## About  
 
 **Earthquake Report** aims to provide actionable insights on earthquake patterns and their impacts. Combining real-time monitoring with historical data and machine learning, this project seeks to enhance disaster preparedness and inform better response strategies. It provides an intuitive platform for communities, governments, and researchers to assess earthquake risks effectively.  
 
 ![Screenshot 2025-01-16 185558](https://github.com/user-attachments/assets/2d308c0e-8854-44f9-b8a4-2ac106e576c7)
+
 
 
 ## Key Features  
